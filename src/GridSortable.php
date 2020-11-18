@@ -3,8 +3,8 @@
 namespace Encore\Admin\GridSortable;
 
 use Encore\Admin\Extension;
-use Encore\Admin\Grid;
-use Encore\Admin\Grid\Tools\ColumnSelector;
+use Encore\Admin\Table;
+use Encore\Admin\Table\Tools\ColumnSelector;
 use Spatie\EloquentSortable\Sortable;
 
 class GridSortable extends Extension
@@ -19,9 +19,9 @@ class GridSortable extends Extension
     {
         ColumnSelector::ignore($column = $this->column);
 
-        Grid::macro('sortable', function () use ($column) {
+        Table::macro('sortable', function () use ($column) {
 
-            $this->tools(function (Grid\Tools $tools) {
+            $this->tools(function (Table\Tools $tools) {
                 $tools->append(new SaveOrderBtn());
             });
 

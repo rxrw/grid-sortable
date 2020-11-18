@@ -3,7 +3,7 @@
 namespace Encore\Admin\GridSortable;
 
 use Encore\Admin\Admin;
-use Encore\Admin\Grid\Tools\AbstractTool;
+use Encore\Admin\Table\Tools\AbstractTool;
 
 class SaveOrderBtn extends AbstractTool
 {

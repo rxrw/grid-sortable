@@ -12,8 +12,8 @@
         }
     ],
     "require": {
-        "php": ">=7.0.0",
-        "encore/laravel-admin": ">=1.7.2",
+        "php": ">=7.4.0",
+        "encore/laravel-admin": "2.0.x-dev",
         "spatie/eloquent-sortable": "*"
     },
     "require-dev": {

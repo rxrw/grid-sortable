@@ -3,7 +3,7 @@
 namespace Encore\Admin\GridSortable;
 
 use Encore\Admin\Admin;
-use Encore\Admin\Grid\Displayers\AbstractDisplayer;
+use Encore\Admin\Table\Displayers\AbstractDisplayer;
 
 class SortableDisplay extends AbstractDisplayer
 {
