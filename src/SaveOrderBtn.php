@@ -11,7 +11,7 @@ class SaveOrderBtn extends AbstractTool
     {
         $route = route('laravel-admin-grid-sortable');
 
-        $class = get_class($this->getGrid()->model()->getOriginalModel());
+        $class = get_class($this->getTable()->model()->getOriginalModel());
 
         $class = str_replace('\\', '\\\\', $class);
 

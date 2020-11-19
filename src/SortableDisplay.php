@@ -9,7 +9,7 @@ class SortableDisplay extends AbstractDisplayer
 {
     protected function script()
     {
-        $id = $this->getGrid()->tableID;
+        $id = $this->getTable()->tableID;
 
         $script = <<<SCRIPT
         
