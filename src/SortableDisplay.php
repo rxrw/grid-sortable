@@ -26,7 +26,7 @@ class SortableDisplay extends AbstractDisplayer
             sorts.push($(this).data());
         });
         
-        var \$btn = $('#{$id}').closest('.box').find('.grid-save-order-btn');
+        var \$btn = $('#{$id}').closest('.card').find('.grid-save-order-btn');
         \$btn.data('sort', sorts).show();
     });
 })();
