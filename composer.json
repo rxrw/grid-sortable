@@ -1,9 +1,9 @@
 {
     "name": "reprover/grid-sortable",
-    "description": "Sort the grid data by drag and drop rows",
+    "description": "Sort the grid data by drag and drop rows (Support 2.0)",
     "type": "library",
     "keywords": ["laravel-admin", "extension", "grid", "sortable"],
-    "homepage": "https://github.com/laravel-admin-ext/grid-sortable",
+    "homepage": "https://github.com/rxrw/grid-sortable",
     "license": "MIT",
     "authors": [
         {
@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=7.4.0",
-        "encore/laravel-admin": "2.0.x-dev",
+        "encore/laravel-admin": "~2.0",
         "spatie/eloquent-sortable": "*"
     },
     "require-dev": {
